@@ -1713,170 +1713,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bca-symbols:CP_Power"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CP_Power"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "bca-footprints:CP_Radial_D6.3mm_P2.50mm"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, footprint sized for power rails"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CP_Power_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.032 -1.27)
-					(mid 0 -0.5572)
-					(end 2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CP_Power_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bca-symbols:C_Ceramic"
 			(pin_numbers
 				(hide yes)
@@ -3959,12 +3795,6 @@
 		(uuid "1fbbc8dd-7b69-4323-a873-5ff9eabd29b4")
 	)
 	(junction
-		(at 111.76 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fe2790e-b38c-4f2a-a052-f4489b08e61b")
-	)
-	(junction
 		(at 46.99 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4001,7 +3831,7 @@
 		(uuid "258bf0f5-bd18-4f06-8671-64cc0de423b5")
 	)
 	(junction
-		(at 46.99 190.5)
+		(at 40.64 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "283ec099-25b6-41cb-be2c-f68c20e1dbd0")
@@ -4091,7 +3921,7 @@
 		(uuid "6482d3d1-0e65-4478-977c-d4cfa01f8bb6")
 	)
 	(junction
-		(at 46.99 180.34)
+		(at 40.64 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c4082f7-3304-4012-acc4-b847b894c663")
@@ -4109,13 +3939,13 @@
 		(uuid "6ed95de0-98fb-409b-95e5-42b03b3ce944")
 	)
 	(junction
-		(at 38.1 190.5)
+		(at 31.75 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ab0b818-7334-44aa-b61e-8413f9977425")
 	)
 	(junction
-		(at 91.44 82.55)
+		(at 85.09 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8205c63f-b30c-465b-89c3-9e1b1910f5d7")
@@ -4133,7 +3963,7 @@
 		(uuid "85a362f6-1ced-4822-b77d-9caaca148b8d")
 	)
 	(junction
-		(at 85.09 172.72)
+		(at 78.74 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "898a94a6-1b18-465f-a69a-e5d67f02d135")
@@ -4145,7 +3975,7 @@
 		(uuid "8c3def39-e34d-4629-b6c3-3e2ac67cd60a")
 	)
 	(junction
-		(at 66.04 190.5)
+		(at 59.69 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90f08309-9452-4e6b-bcd3-905062070be3")
@@ -4169,13 +3999,13 @@
 		(uuid "a451e745-788a-41e9-a7aa-acc0029da8ab")
 	)
 	(junction
-		(at 85.09 190.5)
+		(at 78.74 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a97a648c-9e33-40cb-b04f-31577742375d")
 	)
 	(junction
-		(at 132.08 116.84)
+		(at 127 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af45fa1f-3926-438c-888c-9a1721bae401")
@@ -4193,13 +4023,13 @@
 		(uuid "b1c26050-f5ce-412b-9959-1953c30468b8")
 	)
 	(junction
-		(at 66.04 172.72)
+		(at 59.69 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9e851ba-bde2-4851-8a24-fc49c4ae7caa")
 	)
 	(junction
-		(at 142.24 116.84)
+		(at 137.16 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba37ed6f-df56-41a5-86d4-1ef0b4cc4287")
@@ -4211,13 +4041,13 @@
 		(uuid "bbb5b031-aefb-4993-99e6-18025d2742f0")
 	)
 	(junction
-		(at 121.92 116.84)
+		(at 116.84 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfe6007c-c8ac-4bd3-a2e2-62bec01bbf50")
 	)
 	(junction
-		(at 38.1 170.18)
+		(at 31.75 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c25c170c-6596-48bb-b4b9-93773b8f3d16")
@@ -4283,7 +4113,7 @@
 		(uuid "ebe0fa48-9e13-4149-ba93-96c1fe6ac81f")
 	)
 	(junction
-		(at 151.13 123.19)
+		(at 146.05 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eee2c2a7-694f-45b0-8d74-71bb8720dc4b")
@@ -4316,7 +4146,17 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 190.5) (xy 85.09 191.77)
+			(xy 107.95 127) (xy 107.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02016868-cc33-4570-8f8f-661acc71e9a2")
+	)
+	(wire
+		(pts
+			(xy 78.74 190.5) (xy 78.74 191.77)
 		)
 		(stroke
 			(width 0)
@@ -4366,7 +4206,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 168.91) (xy 30.48 170.18)
+			(xy 24.13 168.91) (xy 24.13 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4416,7 +4256,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 172.72) (xy 85.09 172.72)
+			(xy 88.9 172.72) (xy 78.74 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4436,7 +4276,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 116.84) (xy 123.19 116.84)
+			(xy 116.84 116.84) (xy 118.11 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4456,7 +4296,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 170.18) (xy 85.09 172.72)
+			(xy 78.74 170.18) (xy 78.74 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4496,7 +4336,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 114.3) (xy 121.92 116.84)
+			(xy 116.84 113.03) (xy 116.84 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4576,7 +4416,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 123.19) (xy 125.73 127)
+			(xy 116.84 116.84) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -4646,17 +4486,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 113.03) (xy 116.84 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a67d1b1-1aef-449a-819f-19bd482231c0")
-	)
-	(wire
-		(pts
-			(xy 85.09 189.23) (xy 85.09 190.5)
+			(xy 78.74 189.23) (xy 78.74 190.5)
 		)
 		(stroke
 			(width 0)
@@ -4686,7 +4516,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 106.68) (xy 214.63 106.68)
+			(xy 208.28 100.33) (xy 209.55 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4716,7 +4546,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 116.84) (xy 140.97 116.84)
+			(xy 137.16 116.84) (xy 135.89 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4796,7 +4626,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 115.57) (xy 142.24 116.84)
+			(xy 137.16 115.57) (xy 137.16 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4826,7 +4656,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 190.5) (xy 38.1 191.77)
+			(xy 31.75 190.5) (xy 31.75 191.77)
 		)
 		(stroke
 			(width 0)
@@ -4856,7 +4686,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 123.19) (xy 146.05 123.19)
+			(xy 146.05 123.19) (xy 140.97 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4926,7 +4756,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 190.5) (xy 66.04 191.77)
+			(xy 59.69 190.5) (xy 59.69 191.77)
 		)
 		(stroke
 			(width 0)
@@ -4946,7 +4776,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 172.72) (xy 66.04 173.99)
+			(xy 59.69 172.72) (xy 59.69 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4986,17 +4816,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 123.19) (xy 125.73 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d5d511-9af3-417a-a008-090a102bd3a2")
-	)
-	(wire
-		(pts
-			(xy 38.1 170.18) (xy 46.99 170.18)
+			(xy 31.75 170.18) (xy 40.64 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5046,7 +4866,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 113.03) (xy 96.52 114.3)
+			(xy 96.52 106.68) (xy 96.52 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5076,7 +4896,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 72.39 82.55)
+			(xy 69.85 82.55) (xy 76.2 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5096,7 +4916,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 116.84) (xy 132.08 123.19)
+			(xy 127 116.84) (xy 127 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5176,7 +4996,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 176.53) (xy 38.1 170.18)
+			(xy 31.75 176.53) (xy 31.75 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5186,7 +5006,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 107.95) (xy 151.13 111.76)
+			(xy 146.05 107.95) (xy 146.05 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5206,23 +5026,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 116.84) (xy 132.08 116.84)
+			(xy 125.73 116.84) (xy 127 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5b09e4cb-3a90-4cda-8f42-0cba2f8d668e")
-	)
-	(wire
-		(pts
-			(xy 111.76 125.73) (xy 111.76 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ce8f88c-3bd2-4b4d-ade3-651204cafaf8")
 	)
 	(wire
 		(pts
@@ -5233,26 +5043,6 @@
 			(type default)
 		)
 		(uuid "5db4550a-72da-46e3-a90a-cf2b45eafebf")
-	)
-	(wire
-		(pts
-			(xy 118.11 116.84) (xy 111.76 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60e5b14c-70a9-4a71-9a9e-b43f50a1e7b4")
-	)
-	(wire
-		(pts
-			(xy 118.11 127) (xy 118.11 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b6422b-36ac-474c-861f-88bbd458045c")
 	)
 	(wire
 		(pts
@@ -5346,6 +5136,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 110.49) (xy 101.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710c526b-fe43-47b9-86ec-577c0d867d1e")
+	)
+	(wire
+		(pts
 			(xy 210.82 33.02) (xy 214.63 33.02)
 		)
 		(stroke
@@ -5386,7 +5186,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 170.18) (xy 31.75 170.18)
+			(xy 24.13 170.18) (xy 25.4 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5406,23 +5206,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 177.8) (xy 76.2 172.72)
+			(xy 69.85 177.8) (xy 69.85 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "766cfabe-d4f4-4a9c-b9bb-f8f5b5cb34b8")
-	)
-	(wire
-		(pts
-			(xy 121.92 116.84) (xy 121.92 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77153318-a07d-4792-acb0-cbaeca949431")
 	)
 	(wire
 		(pts
@@ -5516,7 +5306,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 170.18) (xy 36.83 170.18)
+			(xy 31.75 170.18) (xy 30.48 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5543,16 +5333,6 @@
 			(type default)
 		)
 		(uuid "7f9b8b68-cf5e-4de5-864b-7b432671d4a3")
-	)
-	(wire
-		(pts
-			(xy 111.76 113.03) (xy 111.76 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "818abede-a4fe-4b72-a20d-6a2b656efc25")
 	)
 	(wire
 		(pts
@@ -5586,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 190.5) (xy 95.25 190.5)
+			(xy 78.74 190.5) (xy 88.9 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5596,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 181.61) (xy 54.61 180.34)
+			(xy 48.26 181.61) (xy 48.26 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5626,7 +5406,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 116.84) (xy 203.2 116.84)
+			(xy 196.85 110.49) (xy 198.12 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5716,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 82.55) (xy 90.17 82.55)
+			(xy 85.09 82.55) (xy 83.82 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5726,7 +5506,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 170.18) (xy 66.04 172.72)
+			(xy 59.69 170.18) (xy 59.69 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5786,7 +5566,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 106.68) (xy 203.2 106.68)
+			(xy 196.85 100.33) (xy 198.12 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5806,7 +5586,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 177.8) (xy 95.25 172.72)
+			(xy 88.9 177.8) (xy 88.9 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5846,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 189.23) (xy 46.99 190.5)
+			(xy 40.64 189.23) (xy 40.64 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5866,7 +5646,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 190.5) (xy 95.25 185.42)
+			(xy 88.9 190.5) (xy 88.9 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5876,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 91.44 82.55)
+			(xy 85.09 83.82) (xy 85.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5946,7 +5726,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 190.5) (xy 76.2 185.42)
+			(xy 69.85 190.5) (xy 69.85 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5956,7 +5736,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 189.23) (xy 54.61 190.5)
+			(xy 48.26 189.23) (xy 48.26 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6013,16 +5793,6 @@
 			(type default)
 		)
 		(uuid "ae430d7a-2b10-4e0e-8f96-8336df14fb11")
-	)
-	(wire
-		(pts
-			(xy 82.55 82.55) (xy 80.01 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae5d7a7d-0edb-4ea9-ad1c-df2aee6fbdac")
 	)
 	(wire
 		(pts
@@ -6086,6 +5856,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 110.49) (xy 101.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4698206-17c6-4e87-9e15-dfa4c355b41d")
+	)
+	(wire
+		(pts
 			(xy 46.99 30.48) (xy 46.99 38.1)
 		)
 		(stroke
@@ -6096,7 +5876,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 189.23) (xy 66.04 190.5)
+			(xy 59.69 189.23) (xy 59.69 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6116,7 +5896,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 180.34) (xy 46.99 181.61)
+			(xy 40.64 180.34) (xy 40.64 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6136,17 +5916,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 116.84) (xy 111.76 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcbac3bf-1747-4482-9f12-360ed9d926f9")
-	)
-	(wire
-		(pts
-			(xy 54.61 190.5) (xy 46.99 190.5)
+			(xy 48.26 190.5) (xy 40.64 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6196,7 +5966,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 116.84) (xy 132.08 116.84)
+			(xy 128.27 116.84) (xy 127 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6246,6 +6016,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 172.72) (xy 69.85 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31d8447-4704-44c1-899a-064667f65280")
+	)
+	(wire
+		(pts
 			(xy 66.04 50.8) (xy 66.04 49.53)
 		)
 		(stroke
@@ -6276,7 +6056,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 184.15) (xy 38.1 190.5)
+			(xy 31.75 184.15) (xy 31.75 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6306,7 +6086,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 99.06 102.87)
+			(xy 99.06 82.55) (xy 99.06 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6346,7 +6126,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 180.34) (xy 54.61 180.34)
+			(xy 40.64 180.34) (xy 48.26 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6366,7 +6146,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 123.19) (xy 151.13 127)
+			(xy 146.05 123.19) (xy 146.05 127)
 		)
 		(stroke
 			(width 0)
@@ -6426,7 +6206,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 82.55) (xy 99.06 82.55)
+			(xy 85.09 82.55) (xy 99.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6516,7 +6296,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 116.84) (xy 143.51 116.84)
+			(xy 137.16 116.84) (xy 138.43 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6526,23 +6306,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 116.84) (xy 214.63 116.84)
+			(xy 208.28 110.49) (xy 209.55 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db10873d-2608-4261-9ac9-3bc9429d83d9")
-	)
-	(wire
-		(pts
-			(xy 121.92 114.3) (xy 116.84 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db87fd0b-6991-44d5-8ae0-9af4a1d54366")
 	)
 	(wire
 		(pts
@@ -6566,7 +6336,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 190.5) (xy 38.1 190.5)
+			(xy 40.64 190.5) (xy 31.75 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6616,7 +6386,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 123.19) (xy 132.08 123.19)
+			(xy 133.35 123.19) (xy 127 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6636,7 +6406,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 190.5) (xy 76.2 190.5)
+			(xy 59.69 190.5) (xy 69.85 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6656,7 +6426,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 171.45) (xy 46.99 170.18)
+			(xy 40.64 171.45) (xy 40.64 170.18)
 		)
 		(stroke
 			(width 0)
@@ -6736,7 +6506,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 121.92) (xy 151.13 123.19)
+			(xy 146.05 121.92) (xy 146.05 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6776,7 +6546,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 179.07) (xy 46.99 180.34)
+			(xy 40.64 179.07) (xy 40.64 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6876,16 +6646,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 172.72) (xy 66.04 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb2492c4-0ac9-4285-a418-b99637d9f68a")
-	)
-	(wire
-		(pts
 			(xy 85.09 124.46) (xy 86.36 124.46)
 		)
 		(stroke
@@ -6896,7 +6656,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 172.72) (xy 85.09 173.99)
+			(xy 78.74 172.72) (xy 78.74 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6965,7 +6725,7 @@
 		(uuid "1f635cab-d344-4fb7-a1ba-e627bdb74bbd")
 	)
 	(label "sw_3"
-		(at 201.93 116.84 180)
+		(at 196.85 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6985,7 +6745,7 @@
 		(uuid "3cec5041-9cf7-47fb-a807-535cdd1ffeae")
 	)
 	(label "sw_1"
-		(at 201.93 106.68 180)
+		(at 196.85 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7035,7 +6795,7 @@
 		(uuid "60bc62aa-1c04-4255-b451-a1cee91cb4cb")
 	)
 	(label "9V"
-		(at 151.13 107.95 180)
+		(at 146.05 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7085,7 +6845,7 @@
 		(uuid "9311bda5-eb3d-4038-bae5-ef6ffc0c0272")
 	)
 	(label "4.5V"
-		(at 91.44 91.44 270)
+		(at 85.09 91.44 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7105,7 +6865,7 @@
 		(uuid "9757953d-57e1-48ed-9d28-ba84e36c7999")
 	)
 	(label "4.5V"
-		(at 142.24 107.95 90)
+		(at 137.16 107.95 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7115,7 +6875,7 @@
 		(uuid "a1340664-ce0c-48ce-9ae9-85e20ca12414")
 	)
 	(label "9V"
-		(at 46.99 170.18 0)
+		(at 40.64 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7165,7 +6925,7 @@
 		(uuid "c6b0f15e-0add-4c33-8bb7-686b6c16c454")
 	)
 	(label "9V"
-		(at 66.04 170.18 0)
+		(at 59.69 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7195,7 +6955,7 @@
 		(uuid "dd85b87f-a013-4161-9d15-631f6a6d2dcc")
 	)
 	(label "sw_8"
-		(at 214.63 106.68 0)
+		(at 209.55 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7205,17 +6965,17 @@
 		(uuid "e2a1dd06-21dc-4b24-abfd-3a2e236220df")
 	)
 	(label "4.5V"
-		(at 118.11 134.62 270)
+		(at 107.95 134.62 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "eaa7ab3d-ea2f-4363-855f-af0ae40fd2e8")
+		(uuid "e369b72f-3511-435e-8ccd-fad2e537477a")
 	)
 	(label "sw_6"
-		(at 214.63 116.84 0)
+		(at 209.55 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7225,7 +6985,7 @@
 		(uuid "ec5b75ee-3415-47a5-85b7-9be69b330631")
 	)
 	(label "4.5V"
-		(at 125.73 134.62 270)
+		(at 116.84 134.62 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7235,7 +6995,7 @@
 		(uuid "eddd2eaa-9d81-4fcb-b8ce-a4d39e00d2f1")
 	)
 	(label "4.5V"
-		(at 54.61 180.34 0)
+		(at 48.26 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7245,7 +7005,7 @@
 		(uuid "f6ef3d67-9f8b-49fe-ad15-719fd12064ee")
 	)
 	(label "9V"
-		(at 85.09 170.18 0)
+		(at 78.74 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7373,7 +7133,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 85.09 191.77 0)
+		(at 78.74 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7381,8 +7141,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "017c1249-37e9-4503-8ea7-7771c94b7f19")
-		(property "Reference" "#PWR035"
-			(at 85.09 198.12 0)
+		(property "Reference" "#PWR034"
+			(at 78.74 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7151,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 85.09 196.85 0)
+			(at 78.74 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 191.77 0)
+			(at 78.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 191.77 0)
+			(at 78.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 85.09 191.77 0)
+			(at 78.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,7 +7192,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7984,15 +7744,15 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:R")
-		(at 46.99 175.26 90)
+		(at 40.64 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "10b74d93-9bff-44db-9e84-19f3c54eeebc")
-		(property "Reference" "R61"
-			(at 48.26 173.99 90)
+		(property "Reference" "R60"
+			(at 41.91 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8001,7 +7761,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 48.26 176.53 90)
+			(at 41.91 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +7770,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 52.07 170.18 0)
+			(at 45.72 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,7 +7779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 175.26 90)
+			(at 40.64 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,7 +7788,7 @@
 			)
 		)
 		(property "Description" "Resistor, Horizontal"
-			(at 46.99 175.26 0)
+			(at 40.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8045,7 +7805,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R61")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -8061,7 +7821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11bd44be-26b5-4b35-af1e-d17e5362da79")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 85.09 116.84 90)
 			(effects
 				(font
@@ -8115,7 +7875,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -8217,7 +7977,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 166.37 42.2148 0)
 			(effects
 				(font
@@ -8261,7 +8021,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 114.3 107.95 270)
+		(at 99.06 101.6 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8269,7 +8029,7 @@
 		(dnp no)
 		(uuid "1661cc47-efd4-483e-8cc8-1808dcb894af")
 		(property "Reference" "SW2"
-			(at 114.3 107.95 90)
+			(at 99.06 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +8037,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 120.65 107.95 0)
+			(at 105.41 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8046,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:SW_Toggle_DPDT_SolderLug"
-			(at 114.3 107.95 0)
+			(at 99.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,7 +8055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 107.95 0)
+			(at 99.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +8064,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 114.3 107.95 0)
+			(at 99.06 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +8126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 78.74 42.2148 0)
 			(effects
 				(font
@@ -8410,7 +8170,7 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:R")
-		(at 125.73 130.81 270)
+		(at 116.84 130.81 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8418,8 +8178,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b8c3ef4-8e57-46d9-8af2-fca60ddbd9f9")
-		(property "Reference" "R54"
-			(at 127 129.54 90)
+		(property "Reference" "R53"
+			(at 118.11 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8188,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 127 132.08 90)
+			(at 118.11 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8197,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 120.65 125.73 0)
+			(at 111.76 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +8206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 130.81 90)
+			(at 116.84 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8215,7 @@
 			)
 		)
 		(property "Description" "Resistor, Horizontal"
-			(at 125.73 130.81 0)
+			(at 116.84 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8232,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R54")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -8547,7 +8307,7 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:SW_DIP_SPDT_2pos")
-		(at 208.28 119.38 0)
+		(at 203.2 113.03 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8555,7 +8315,7 @@
 		(dnp no)
 		(uuid "1cb7fffe-5341-4f0c-8588-39e21c8baf5f")
 		(property "Reference" "SW3"
-			(at 208.28 119.38 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,7 +8323,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_SPDT_2pos"
-			(at 208.28 111.76 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,7 +8332,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:DIP-8_W7.62mm_Socket"
-			(at 208.28 116.84 0)
+			(at 203.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,7 +8341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 116.84 0)
+			(at 203.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +8350,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 208.28 119.38 0)
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,15 +8393,15 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:C_Ceramic")
-		(at 76.2 181.61 0)
+		(at 69.85 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1d0388db-397f-4356-81ab-fd4fee20e6c3")
-		(property "Reference" "C47"
-			(at 72.898 181.61 90)
+		(property "Reference" "C44"
+			(at 66.548 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,15 +8409,15 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 79.756 181.61 90)
+			(at 73.406 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 77.1652 185.42 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 70.8152 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +8426,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 181.61 0)
+			(at 69.85 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,7 +8435,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 181.61 0)
+			(at 69.85 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8452,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C47")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -8767,77 +8527,7 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:R")
-		(at 111.76 130.81 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1df765be-b208-4778-9289-de6c6815abaf")
-		(property "Reference" "R52"
-			(at 113.03 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22k"
-			(at 113.03 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal"
-			(at 106.68 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, Horizontal"
-			(at 111.76 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e918287-5b60-42b5-bc1d-3fe8d6deaf54")
-		)
-		(pin "2"
-			(uuid "fa824660-eef1-414d-8dbd-7dfb78294eba")
-		)
-		(instances
-			(project "riley-penny-custom"
-				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bca-symbols:R")
-		(at 86.36 82.55 0)
+		(at 80.01 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8845,7 +8535,7 @@
 		(dnp no)
 		(uuid "1ea2bed1-223f-4973-b1b4-710083ebf658")
 		(property "Reference" "R47"
-			(at 86.36 80.264 0)
+			(at 80.01 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8853,7 +8543,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 86.36 84.836 0)
+			(at 80.01 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,7 +8551,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal"
-			(at 91.44 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 82.55 90)
+			(at 80.01 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +8569,7 @@
 			)
 		)
 		(property "Description" "Resistor, Horizontal"
-			(at 86.36 82.55 0)
+			(at 80.01 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,6 +8723,76 @@
 			(project ""
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bca-symbols:R")
+		(at 107.95 130.81 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e9e099e-69fc-415b-96ca-dc5053f6a41d")
+		(property "Reference" "R52"
+			(at 109.22 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 109.22 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 102.87 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, Horizontal"
+			(at 107.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05959177-37b6-4b46-b425-69b9f6d4f810")
+		)
+		(pin "2"
+			(uuid "b6f618b7-89b2-4eec-86f5-3e398f117697")
+		)
+		(instances
+			(project "riley-penny-custom"
+				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -9244,7 +9004,7 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:R")
-		(at 142.24 111.76 270)
+		(at 137.16 111.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9252,8 +9012,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3449c06a-e10d-4790-a720-b1d6978338d7")
-		(property "Reference" "R57"
-			(at 143.51 110.49 90)
+		(property "Reference" "R55"
+			(at 138.43 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,7 +9022,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at 143.51 113.03 90)
+			(at 138.43 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9271,7 +9031,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal"
-			(at 137.16 106.68 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,7 +9040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 111.76 90)
+			(at 137.16 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +9049,7 @@
 			)
 		)
 		(property "Description" "Resistor, Horizontal"
-			(at 142.24 111.76 0)
+			(at 137.16 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9066,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R57")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -9322,7 +9082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "396f62dd-93ae-4b44-8799-34dd15034e57")
-		(property "Reference" "C43"
+		(property "Reference" "C41"
 			(at 137.16 81.788 90)
 			(effects
 				(font
@@ -9374,7 +9134,7 @@
 		(instances
 			(project ""
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C43")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -9382,7 +9142,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 34.29 170.18 90)
+		(at 27.94 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9390,7 +9150,7 @@
 		(dnp no)
 		(uuid "3afe4a6e-08a9-4486-8bcb-fe596e78884b")
 		(property "Reference" "FB3"
-			(at 34.29 167.132 90)
+			(at 27.94 167.132 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9398,7 +9158,7 @@
 			)
 		)
 		(property "Value" "FerriteBead_Small"
-			(at 34.2519 166.37 90)
+			(at 27.9019 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +9167,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 34.29 171.958 90)
+			(at 27.94 171.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9416,7 +9176,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 170.18 0)
+			(at 27.94 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9425,7 +9185,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 34.29 170.18 0)
+			(at 27.94 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,7 +9575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 83.82 35.8648 0)
 			(effects
 				(font
@@ -9925,73 +9685,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 111.76 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e023be7-7950-43dd-8534-1fb17077bff0")
-		(property "Reference" "#PWR029"
-			(at 111.76 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 111.76 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 111.76 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2d26409-ca23-42ce-b044-14776626b4de")
-		)
-		(instances
-			(project "riley-penny-custom"
-				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bca-symbols:C_Film_W2.50mm")
 		(at 46.99 120.65 270)
 		(mirror x)
@@ -10001,7 +9694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50a71a33-fde9-4cd6-b051-10cd6f63d847")
-		(property "Reference" "C33"
+		(property "Reference" "C34"
 			(at 46.99 117.348 90)
 			(effects
 				(font
@@ -10053,7 +9746,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C33")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -10366,7 +10059,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 151.13 134.62 0)
+		(at 146.05 134.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10375,8 +10068,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f90272a-5269-4f38-9fcf-7dde57b99b04")
-		(property "Reference" "#PWR031"
-			(at 151.13 140.97 0)
+		(property "Reference" "#PWR030"
+			(at 146.05 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10078,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 151.13 139.7 0)
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +10087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 134.62 0)
+			(at 146.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +10096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 134.62 0)
+			(at 146.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,7 +10105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 151.13 134.62 0)
+			(at 146.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10426,7 +10119,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10434,7 +10127,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TLV9302xD")
-		(at 87.63 181.61 0)
+		(at 62.23 181.61 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10442,7 +10135,7 @@
 		(dnp no)
 		(uuid "606f9041-c86f-4e8d-bc70-ec307fa091ac")
 		(property "Reference" "U3"
-			(at 83.058 181.61 90)
+			(at 57.658 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10450,7 +10143,7 @@
 			)
 		)
 		(property "Value" "TLV9352"
-			(at 87.376 181.61 90)
+			(at 61.976 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10151,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 87.63 171.45 0)
+			(at 62.23 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +10160,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9302.pdf"
-			(at 87.63 190.5 0)
+			(at 62.23 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +10169,7 @@
 			)
 		)
 		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
-			(at 87.63 181.61 0)
+			(at 62.23 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10587,7 +10280,7 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:SW_DIP_SPDT_2pos")
-		(at 208.28 109.22 0)
+		(at 203.2 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10595,7 +10288,7 @@
 		(dnp no)
 		(uuid "67a1bb26-e647-40f9-9dbb-26ce29865579")
 		(property "Reference" "SW3"
-			(at 208.28 109.22 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +10296,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_SPDT_2pos"
-			(at 208.28 101.6 0)
+			(at 203.2 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +10305,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:DIP-8_W7.62mm_Socket"
-			(at 208.28 106.68 0)
+			(at 203.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10621,7 +10314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 106.68 0)
+			(at 203.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,7 +10323,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 208.28 109.22 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10961,7 +10654,7 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:R")
-		(at 151.13 130.81 270)
+		(at 146.05 130.81 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10969,8 +10662,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73e39d0c-db56-4748-aad5-6a42ecb4f126")
-		(property "Reference" "R60"
-			(at 149.86 129.54 90)
+		(property "Reference" "R58"
+			(at 144.78 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10979,7 +10672,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 149.86 132.08 90)
+			(at 144.78 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10988,7 +10681,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal"
-			(at 146.05 125.73 0)
+			(at 140.97 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +10690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 130.81 90)
+			(at 146.05 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11006,7 +10699,7 @@
 			)
 		)
 		(property "Description" "Resistor, Horizontal"
-			(at 151.13 130.81 0)
+			(at 146.05 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11023,7 +10716,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R60")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -11046,7 +10739,7 @@
 				)
 			)
 		)
-		(property "Value" "3v3 Zener"
+		(property "Value" "4v7 Zener"
 			(at 167.64 13.97 0)
 			(effects
 				(font
@@ -11099,7 +10792,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:Q_NPN_BEC")
-		(at 148.59 116.84 0)
+		(at 143.51 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11108,7 +10801,7 @@
 		(fields_autoplaced yes)
 		(uuid "75f0d6cd-92a8-4e49-a6e8-60e570bfe3d1")
 		(property "Reference" "Q9"
-			(at 153.67 115.5699 0)
+			(at 148.59 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11117,7 +10810,7 @@
 			)
 		)
 		(property "Value" "BC848C"
-			(at 153.67 118.1099 0)
+			(at 148.59 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11126,7 +10819,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 153.67 114.3 0)
+			(at 148.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11135,7 +10828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 116.84 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11144,7 +10837,7 @@
 			)
 		)
 		(property "Description" "NPN transistor, base/emitter/collector"
-			(at 148.59 116.84 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11153,7 +10846,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 148.59 116.84 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11162,7 +10855,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
-			(at 148.59 116.84 0)
+			(at 143.51 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,76 +10876,6 @@
 			(project ""
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
 					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bca-symbols:R")
-		(at 118.11 130.81 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7938121d-c3ce-4607-bf18-740ab7696a8f")
-		(property "Reference" "R53"
-			(at 119.38 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 119.38 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 113.03 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, Horizontal"
-			(at 118.11 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88f5557c-d929-49f7-a63b-9ef56a4a4aca")
-		)
-		(pin "2"
-			(uuid "0db230c4-87f1-496b-8114-cc70cc75c804")
-		)
-		(instances
-			(project "riley-penny-custom"
-				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -11412,73 +11035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bca-symbols:C_Film_W2.50mm")
-		(at 76.2 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84177efc-fb0f-4d4a-a0a4-1656a7cd3618")
-		(property "Reference" "C37"
-			(at 76.2 79.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47n"
-			(at 76.2 86.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm"
-			(at 80.01 81.5848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 76.2 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d734898-0968-4458-b5c8-1de4531e2d0c")
-		)
-		(pin "2"
-			(uuid "08d7a30d-bba9-4505-8817-6ab7735876e4")
-		)
-		(instances
-			(project ""
-				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bca-symbols:C_Ceramic")
 		(at 167.64 36.83 90)
 		(unit 1)
@@ -11503,7 +11059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 171.45 35.8648 0)
 			(effects
 				(font
@@ -11623,7 +11179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89732a55-40be-4ecf-97d8-b596778cccef")
-		(property "Reference" "C38"
+		(property "Reference" "C36"
 			(at 91.44 121.158 90)
 			(effects
 				(font
@@ -11675,7 +11231,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C38")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -11821,15 +11377,15 @@
 	)
 	(symbol
 		(lib_id "BCA Symbol Library:CP_Power")
-		(at 54.61 185.42 0)
+		(at 48.26 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8bb343c5-6909-4e3b-8bde-d7a86c79c220")
-		(property "Reference" "C46"
-			(at 55.372 182.88 0)
+		(property "Reference" "C43"
+			(at 49.022 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11838,7 +11394,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 55.372 188.468 0)
+			(at 49.022 188.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11847,7 +11403,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:CP_Radial_D6.3mm_P2.50mm"
-			(at 54.61 195.58 0)
+			(at 48.26 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +11412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 185.42 0)
+			(at 48.26 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11865,7 +11421,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, footprint sized for power rails"
-			(at 54.61 185.42 0)
+			(at 48.26 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11882,7 +11438,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C46")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -11897,7 +11453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bd8441a-5899-48de-8fcf-1003fcc9ab99")
-		(property "Reference" "R55"
+		(property "Reference" "R54"
 			(at 123.19 92.964 0)
 			(effects
 				(font
@@ -11949,7 +11505,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R55")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -11957,15 +11513,15 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:R")
-		(at 91.44 87.63 90)
+		(at 85.09 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8d942502-c404-4ec8-8a15-6f57644aff0e")
-		(property "Reference" "R49"
-			(at 92.71 86.36 90)
+		(property "Reference" "R48"
+			(at 86.36 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11974,7 +11530,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at 92.71 88.9 90)
+			(at 86.36 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11983,7 +11539,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal"
-			(at 96.52 82.55 0)
+			(at 90.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,7 +11548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 87.63 90)
+			(at 85.09 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12001,7 +11557,7 @@
 			)
 		)
 		(property "Description" "Resistor, Horizontal"
-			(at 91.44 87.63 0)
+			(at 85.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +11574,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R49")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -12306,7 +11862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "932772ce-97f8-4e71-a64d-e4a742b39346")
-		(property "Reference" "C36"
+		(property "Reference" "C35"
 			(at 59.436 89.916 90)
 			(effects
 				(font
@@ -12324,7 +11880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 64.77 90.4748 0)
 			(effects
 				(font
@@ -12360,7 +11916,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C36")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -12516,85 +12072,16 @@
 		)
 	)
 	(symbol
-		(lib_id "bca-symbols:CP_Power")
-		(at 111.76 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97fd344a-209a-4569-9214-2cadf1bbda07")
-		(property "Reference" "C40"
-			(at 112.776 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 112.776 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "bca-footprints:CP_Radial_D6.3mm_P2.50mm"
-			(at 111.76 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, footprint sized for power rails"
-			(at 111.76 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "828d076c-5a9c-4b21-83d7-c15085cc896f")
-		)
-		(pin "2"
-			(uuid "e59bae84-6801-45c8-98d7-fe6e8694449a")
-		)
-		(instances
-			(project "riley-penny-custom"
-				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bca-symbols:C_Ceramic")
-		(at 95.25 181.61 0)
+		(at 88.9 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "992f3086-98b1-4f78-8e13-4c1de70d51d2")
-		(property "Reference" "C48"
-			(at 91.948 181.61 90)
+		(property "Reference" "C45"
+			(at 85.598 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12602,15 +12089,15 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 98.806 181.61 90)
+			(at 92.456 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 96.2152 185.42 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 89.8652 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +12106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 181.61 0)
+			(at 88.9 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12628,7 +12115,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 95.25 181.61 0)
+			(at 88.9 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12645,7 +12132,7 @@
 		(instances
 			(project ""
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C48")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -12945,15 +12432,15 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:C_Film_W2.50mm")
-		(at 127 116.84 90)
+		(at 121.92 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a84a5b60-da34-412c-94ae-0ca55a68e154")
-		(property "Reference" "C42"
-			(at 127 113.538 90)
+		(property "Reference" "C38"
+			(at 121.92 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12961,7 +12448,7 @@
 			)
 		)
 		(property "Value" "39n"
-			(at 127 120.396 90)
+			(at 121.92 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12969,7 +12456,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm"
-			(at 130.81 115.8748 0)
+			(at 125.73 115.8748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12978,7 +12465,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 116.84 0)
+			(at 121.92 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12987,7 +12474,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 116.84 0)
+			(at 121.92 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13004,7 +12491,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C42")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -13270,7 +12757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47u"
+		(property "Value" "1u"
 			(at 153.162 65.786 0)
 			(effects
 				(font
@@ -13323,7 +12810,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 38.1 191.77 0)
+		(at 31.75 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13331,8 +12818,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6e1d09a-8d7d-41f2-8982-7197e287791c")
-		(property "Reference" "#PWR033"
-			(at 38.1 198.12 0)
+		(property "Reference" "#PWR032"
+			(at 31.75 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13341,7 +12828,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 38.1 196.85 0)
+			(at 31.75 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13350,7 +12837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 191.77 0)
+			(at 31.75 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13359,7 +12846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 191.77 0)
+			(at 31.75 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13368,7 +12855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 38.1 191.77 0)
+			(at 31.75 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +12869,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13640,7 +13127,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 241.3 35.8648 0)
 			(effects
 				(font
@@ -13983,7 +13470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bda2e7f7-4ffb-4208-9fa6-1bb4666e72f2")
-		(property "Reference" "R56"
+		(property "Reference" "R57"
 			(at 143.51 93.98 90)
 			(effects
 				(font
@@ -14037,7 +13524,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R56")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -14212,15 +13699,15 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:C_Film_W2.50mm")
-		(at 137.16 116.84 90)
+		(at 132.08 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c1f9cbd7-bbd6-4229-8386-532e57764484")
-		(property "Reference" "C44"
-			(at 137.16 113.538 90)
+		(property "Reference" "C40"
+			(at 132.08 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14228,7 +13715,7 @@
 			)
 		)
 		(property "Value" "5.6n"
-			(at 137.16 120.396 90)
+			(at 132.08 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14236,7 +13723,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:C_Film_L7.2mm_W2.5mm_P5.00mm"
-			(at 140.97 115.8748 0)
+			(at 135.89 115.8748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14245,7 +13732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 116.84 0)
+			(at 132.08 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14254,7 +13741,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 116.84 0)
+			(at 132.08 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14271,7 +13758,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C44")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -14353,7 +13840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c63e2608-fbc5-44dd-8183-98d7b3f64bf3")
-		(property "Reference" "C41"
+		(property "Reference" "C39"
 			(at 121.92 99.822 90)
 			(effects
 				(font
@@ -14406,7 +13893,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C41")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -14422,7 +13909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7226799-125e-4250-92b5-50f35d7445d4")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 142.24 105.41 0)
 			(effects
 				(font
@@ -14473,7 +13960,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14577,7 +14064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca2ec74a-e60f-49e9-a3b2-75e6ebf45903")
-		(property "Reference" "C34"
+		(property "Reference" "C33"
 			(at 46.482 89.154 0)
 			(effects
 				(font
@@ -14631,7 +14118,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C34")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -14706,7 +14193,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 99.06 107.95 270)
+		(at 114.3 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14714,7 +14201,7 @@
 		(dnp no)
 		(uuid "ce9b19a8-ba01-43d7-9846-3ca9828a6400")
 		(property "Reference" "SW2"
-			(at 99.06 107.95 90)
+			(at 114.3 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14722,7 +14209,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 105.41 107.95 0)
+			(at 120.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14731,7 +14218,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:SW_Toggle_DPDT_SolderLug"
-			(at 99.06 107.95 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14740,7 +14227,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 107.95 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14749,7 +14236,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 99.06 107.95 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14786,15 +14273,15 @@
 	)
 	(symbol
 		(lib_id "BCA Symbol Library:CP_Power")
-		(at 38.1 180.34 0)
+		(at 31.75 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ce9b7f03-067c-483f-846c-ef7fbd7da9bb")
-		(property "Reference" "C45"
-			(at 38.862 177.8 0)
+		(property "Reference" "C42"
+			(at 32.512 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14803,7 +14290,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 38.862 183.388 0)
+			(at 32.512 183.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14812,7 +14299,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:CP_Radial_D6.3mm_P2.50mm"
-			(at 38.1 190.5 0)
+			(at 31.75 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14821,7 +14308,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 180.34 0)
+			(at 31.75 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14830,7 +14317,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, footprint sized for power rails"
-			(at 38.1 180.34 0)
+			(at 31.75 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14847,7 +14334,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C45")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -15366,7 +14853,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 66.04 191.77 0)
+		(at 59.69 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15374,8 +14861,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e20e06a1-b5b5-41f5-879f-f64ce7c4267a")
-		(property "Reference" "#PWR034"
-			(at 66.04 198.12 0)
+		(property "Reference" "#PWR033"
+			(at 59.69 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15384,7 +14871,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 66.04 196.85 0)
+			(at 59.69 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15393,7 +14880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 191.77 0)
+			(at 59.69 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15402,7 +14889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 191.77 0)
+			(at 59.69 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15411,7 +14898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 66.04 191.77 0)
+			(at 59.69 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15425,7 +14912,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15511,7 +14998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee4bb37d-e37c-4a40-b4bf-894e9f39768e")
-		(property "Reference" "C39"
+		(property "Reference" "C37"
 			(at 97.028 117.094 0)
 			(effects
 				(font
@@ -15565,7 +15052,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "C39")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -15656,15 +15143,15 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:R")
-		(at 46.99 185.42 90)
+		(at 40.64 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f0e06fb1-be9d-4e48-8b8c-5b24302af0b2")
-		(property "Reference" "R62"
-			(at 48.26 184.15 90)
+		(property "Reference" "R61"
+			(at 41.91 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15673,7 +15160,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 48.26 186.69 90)
+			(at 41.91 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15682,7 +15169,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 52.07 180.34 0)
+			(at 45.72 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15691,7 +15178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 185.42 90)
+			(at 40.64 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15700,7 +15187,7 @@
 			)
 		)
 		(property "Description" "Resistor, Horizontal"
-			(at 46.99 185.42 0)
+			(at 40.64 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15717,7 +15204,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R62")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -15859,7 +15346,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TLV9302xD")
-		(at 68.58 181.61 0)
+		(at 81.28 181.61 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15867,7 +15354,7 @@
 		(dnp no)
 		(uuid "f635d47c-4ca8-49ae-bb8d-51d7836e4310")
 		(property "Reference" "U4"
-			(at 64.008 181.61 90)
+			(at 76.708 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15875,7 +15362,7 @@
 			)
 		)
 		(property "Value" "TLV9352"
-			(at 68.326 181.61 90)
+			(at 81.026 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15883,7 +15370,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 68.58 171.45 0)
+			(at 81.28 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15892,7 +15379,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9302.pdf"
-			(at 68.58 190.5 0)
+			(at 81.28 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15901,7 +15388,7 @@
 			)
 		)
 		(property "Description" "40-V, 1-MHz, RRO Operational Amplifiers for Cost-Sensitive Systems, SOIC-8"
-			(at 68.58 181.61 0)
+			(at 81.28 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16030,15 +15517,15 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 30.48 168.91 0)
+		(at 24.13 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fad4198a-5646-45b8-a292-fd4c470c77ea")
-		(property "Reference" "#PWR032"
-			(at 30.48 172.72 0)
+		(property "Reference" "#PWR031"
+			(at 24.13 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16047,7 +15534,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 30.48 165.1 0)
+			(at 24.13 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16055,7 +15542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 168.91 0)
+			(at 24.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16064,7 +15551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 168.91 0)
+			(at 24.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16073,7 +15560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 30.48 168.91 0)
+			(at 24.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16087,7 +15574,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -16234,7 +15721,7 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:R")
-		(at 142.24 123.19 0)
+		(at 137.16 123.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16242,8 +15729,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "feba8adc-735c-4fc8-b71b-8a5e4a67212a")
-		(property "Reference" "R58"
-			(at 142.24 120.904 0)
+		(property "Reference" "R56"
+			(at 137.16 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16251,7 +15738,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 142.24 125.476 0)
+			(at 137.16 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16259,7 +15746,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal"
-			(at 137.16 128.27 0)
+			(at 132.08 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16268,7 +15755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 123.19 90)
+			(at 137.16 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16277,7 +15764,7 @@
 			)
 		)
 		(property "Description" "Resistor, Horizontal"
-			(at 142.24 123.19 0)
+			(at 137.16 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16294,7 +15781,7 @@
 		(instances
 			(project "riley-penny-custom"
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/9430560e-7187-498b-ab45-34444316d95c"
-					(reference "R58")
+					(reference "R56")
 					(unit 1)
 				)
 			)
