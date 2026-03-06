@@ -4146,16 +4146,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 127) (xy 107.95 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02016868-cc33-4570-8f8f-661acc71e9a2")
-	)
-	(wire
-		(pts
 			(xy 78.74 190.5) (xy 78.74 191.77)
 		)
 		(stroke
@@ -4866,7 +4856,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 106.68) (xy 96.52 114.3)
+			(xy 96.52 113.03) (xy 96.52 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5136,16 +5126,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 110.49) (xy 101.6 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "710c526b-fe43-47b9-86ec-577c0d867d1e")
-	)
-	(wire
-		(pts
 			(xy 210.82 33.02) (xy 214.63 33.02)
 		)
 		(stroke
@@ -5333,6 +5313,16 @@
 			(type default)
 		)
 		(uuid "7f9b8b68-cf5e-4de5-864b-7b432671d4a3")
+	)
+	(wire
+		(pts
+			(xy 109.22 116.84) (xy 109.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803e0924-db1e-4634-a9db-5b78ebfd576c")
 	)
 	(wire
 		(pts
@@ -5573,6 +5563,16 @@
 			(type default)
 		)
 		(uuid "94201201-3992-4a86-9942-6e049459977d")
+	)
+	(wire
+		(pts
+			(xy 109.22 116.84) (xy 111.76 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942421b8-0721-4b1e-8740-648bc5a957b3")
 	)
 	(wire
 		(pts
@@ -5856,16 +5856,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 110.49) (xy 101.6 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4698206-17c6-4e87-9e15-dfa4c355b41d")
-	)
-	(wire
-		(pts
 			(xy 46.99 30.48) (xy 46.99 38.1)
 		)
 		(stroke
@@ -6086,7 +6076,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 99.06 96.52)
+			(xy 99.06 82.55) (xy 99.06 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6423,6 +6413,16 @@
 			(type default)
 		)
 		(uuid "e5e71771-c62b-42d6-a840-c2f75e7a4d2d")
+	)
+	(wire
+		(pts
+			(xy 111.76 116.84) (xy 111.76 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8947402-5dbe-4b9c-834f-8e16ded7139c")
 	)
 	(wire
 		(pts
@@ -6965,7 +6965,7 @@
 		(uuid "e2a1dd06-21dc-4b24-abfd-3a2e236220df")
 	)
 	(label "4.5V"
-		(at 107.95 134.62 270)
+		(at 109.22 134.62 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8021,7 +8021,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 99.06 101.6 270)
+		(at 99.06 107.95 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8029,7 +8029,7 @@
 		(dnp no)
 		(uuid "1661cc47-efd4-483e-8cc8-1808dcb894af")
 		(property "Reference" "SW2"
-			(at 99.06 101.6 90)
+			(at 99.06 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,7 +8037,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 105.41 101.6 0)
+			(at 105.41 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8046,7 +8046,7 @@
 			)
 		)
 		(property "Footprint" "bca-footprints:SW_Toggle_DPDT_SolderLug"
-			(at 99.06 101.6 0)
+			(at 99.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8055,7 +8055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 101.6 0)
+			(at 99.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,7 +8064,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 99.06 101.6 0)
+			(at 99.06 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +8187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "56k"
 			(at 118.11 132.08 90)
 			(effects
 				(font
@@ -8196,7 +8196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "bca-footprints:R_L3.6mm_D1.6mm_P5.00mm_Horizontal"
 			(at 111.76 125.73 0)
 			(effects
 				(font
@@ -8255,7 +8255,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "22k"
 			(at 158.75 51.816 0)
 			(effects
 				(font
@@ -8475,7 +8475,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "18n"
 			(at 33.02 46.736 90)
 			(effects
 				(font
@@ -8542,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "6.8k"
 			(at 80.01 84.836 0)
 			(effects
 				(font
@@ -8670,6 +8670,14 @@
 		(dnp no)
 		(uuid "2d6b25ed-6f69-4fda-976f-1ef191b06722")
 		(property "Reference" "D9"
+			(at 158.75 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3v3 Z"
 			(at 158.75 20.574 0)
 			(effects
 				(font
@@ -8677,16 +8685,7 @@
 				)
 			)
 		)
-		(property "Value" "3v3 Zener"
-			(at 158.75 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_Zener_DO-35_P5.00mm"
 			(at 158.75 17.78 0)
 			(effects
 				(font
@@ -8730,7 +8729,7 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:R")
-		(at 107.95 130.81 270)
+		(at 109.22 130.81 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8739,7 +8738,7 @@
 		(dnp no)
 		(uuid "2e9e099e-69fc-415b-96ca-dc5053f6a41d")
 		(property "Reference" "R52"
-			(at 109.22 129.54 90)
+			(at 110.49 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +8747,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 109.22 132.08 90)
+			(at 110.49 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8757,7 +8756,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 102.87 125.73 0)
+			(at 104.14 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,7 +8765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 130.81 90)
+			(at 109.22 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,7 +8774,7 @@
 			)
 		)
 		(property "Description" "Resistor, Horizontal"
-			(at 107.95 130.81 0)
+			(at 109.22 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +9097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 140.97 86.0552 0)
 			(effects
 				(font
@@ -9118,6 +9117,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PART #" "C13585"
+			(at 137.16 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,7 +9710,7 @@
 				)
 			)
 		)
-		(property "Value" "8.2n"
+		(property "Value" "15n"
 			(at 46.99 123.952 90)
 			(effects
 				(font
@@ -9915,7 +9923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_DO-35_P5.00mm"
 			(at 107.95 87.63 0)
 			(effects
 				(font
@@ -9977,7 +9985,8 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:LS84x_SOT23")
-		(at 132.08 43.18 0)
+		(at 147.32 43.18 0)
+		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9985,7 +9994,7 @@
 		(dnp no)
 		(uuid "5c99d1f7-c4d1-4282-8b54-3b561a09241a")
 		(property "Reference" "Q7"
-			(at 135.636 40.894 0)
+			(at 143.764 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9994,7 +10003,7 @@
 			)
 		)
 		(property "Value" "LS844"
-			(at 137.16 44.4499 0)
+			(at 142.24 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,7 +10013,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 137.16 40.64 0)
+			(at 142.24 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +10022,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.linearsystems.com/lsdata/datasheets/LS843_LS844_LS845_Low_Noise,_Low_Drift,_Low_Capacitance,_Monolithic_Dual,_N-Channel_JFET.pdf"
-			(at 132.08 43.18 0)
+			(at 147.32 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10022,7 +10031,7 @@
 			)
 		)
 		(property "Description" "Dual N-JFET transistor, Ultra low noise, low drift, monolithic dual N-Channel JFET Amplifier"
-			(at 132.08 43.18 0)
+			(at 147.32 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,6 +10741,14 @@
 		(dnp no)
 		(uuid "75ddfa82-c1f5-451e-b598-5f763e762441")
 		(property "Reference" "D10"
+			(at 167.64 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4v7 Z"
 			(at 167.64 20.574 0)
 			(effects
 				(font
@@ -10739,16 +10756,7 @@
 				)
 			)
 		)
-		(property "Value" "4v7 Zener"
-			(at 167.64 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_Zener_DO-35_P5.00mm"
 			(at 167.64 17.78 0)
 			(effects
 				(font
@@ -11255,7 +11263,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "10k"
 			(at 45.72 102.87 90)
 			(effects
 				(font
@@ -11606,7 +11614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 255.27 54.3052 0)
 			(effects
 				(font
@@ -11626,6 +11634,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 251.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PART #" "C13585"
+			(at 251.46 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11924,8 +11941,7 @@
 	)
 	(symbol
 		(lib_id "bca-symbols:LS84x_SOT23")
-		(at 147.32 43.18 0)
-		(mirror y)
+		(at 132.08 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11933,7 +11949,7 @@
 		(dnp no)
 		(uuid "93fe68de-728b-47d9-872d-c95063aa0f59")
 		(property "Reference" "Q7"
-			(at 143.764 40.894 0)
+			(at 135.636 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11942,7 +11958,7 @@
 			)
 		)
 		(property "Value" "LS844"
-			(at 142.748 44.45 0)
+			(at 136.652 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11951,7 +11967,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 142.24 40.64 0)
+			(at 137.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11960,7 +11976,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.linearsystems.com/lsdata/datasheets/LS843_LS844_LS845_Low_Noise,_Low_Drift,_Low_Capacitance,_Monolithic_Dual,_N-Channel_JFET.pdf"
-			(at 147.32 43.18 0)
+			(at 132.08 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11969,7 +11985,7 @@
 			)
 		)
 		(property "Description" "Dual N-JFET transistor, Ultra low noise, low drift, monolithic dual N-Channel JFET Amplifier"
-			(at 147.32 43.18 0)
+			(at 132.08 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12234,7 +12250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_DO-35_P5.00mm"
 			(at 115.57 63.5 0)
 			(effects
 				(font
@@ -12312,7 +12328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "2.2k"
 			(at 152.4 55.88 90)
 			(effects
 				(font
@@ -12447,7 +12463,7 @@
 				)
 			)
 		)
-		(property "Value" "39n"
+		(property "Value" "33n"
 			(at 121.92 120.396 90)
 			(effects
 				(font
@@ -12678,7 +12694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_DO-35_P5.00mm"
 			(at 109.22 53.34 0)
 			(effects
 				(font
@@ -13118,8 +13134,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22p"
-			(at 238.76 38.608 90)
+		(property "Value" "47p"
+			(at 239.014 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13558,7 +13574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_DO-35_P5.00mm"
 			(at 101.6 87.63 0)
 			(effects
 				(font
@@ -13995,7 +14011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_DO-35_P5.00mm"
 			(at 109.22 63.5 0)
 			(effects
 				(font
@@ -14073,7 +14089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6n"
+		(property "Value" "3.9n"
 			(at 46.482 93.726 0)
 			(effects
 				(font
@@ -14590,7 +14606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_DO-35_P5.00mm"
 			(at 115.57 53.34 0)
 			(effects
 				(font
@@ -14667,7 +14683,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 33.02 84.836 0)
 			(effects
 				(font
@@ -14801,7 +14817,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 60.96 84.836 0)
 			(effects
 				(font
@@ -15007,7 +15023,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18n"
+		(property "Value" "15n"
 			(at 97.028 121.666 0)
 			(effects
 				(font
@@ -15737,7 +15753,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 137.16 125.476 0)
 			(effects
 				(font

@@ -5874,7 +5874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_DO-35_P5.00mm"
 			(at 121.92 53.34 0)
 			(effects
 				(font
@@ -5922,16 +5922,16 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:DG412xY")
-		(at 125.73 24.13 0)
+		(at 125.73 44.45 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2c1082a6-b03e-4ff3-862c-a7119a417974")
 		(property "Reference" "U1"
-			(at 125.73 27.94 0)
+			(at 125.73 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5939,7 @@
 			)
 		)
 		(property "Value" "DG412xY"
-			(at 124.4601 27.94 90)
+			(at 124.4601 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,7 +5949,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 125.73 21.59 0)
+			(at 125.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5958,7 +5958,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DG411-DG413.pdf"
-			(at 125.73 24.13 0)
+			(at 125.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,7 +5967,7 @@
 			)
 		)
 		(property "Description" "Quad SPST Monolithic CMOS Analog Switches, normally OFF, 17Ohm Ron, SOIC-16"
-			(at 125.73 24.13 0)
+			(at 125.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +6031,7 @@
 				)
 				(path "/0931d4cd-bc79-4e0b-a395-63d6dc93deda/04ae03a0-136b-4c60-aed5-23a9e7c56e8c"
 					(reference "U1")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -7524,8 +7524,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:DG412xY")
-		(at 125.73 44.45 0)
-		(mirror x)
+		(at 93.98 86.36 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7533,7 +7532,7 @@
 		(dnp no)
 		(uuid "8c23ec15-9a90-48e5-bf65-666406804db1")
 		(property "Reference" "U1"
-			(at 125.73 48.26 0)
+			(at 93.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,7 +7540,7 @@
 			)
 		)
 		(property "Value" "DG412xY"
-			(at 124.4601 48.26 90)
+			(at 92.7101 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7551,7 +7550,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 125.73 41.91 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,7 +7559,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DG411-DG413.pdf"
-			(at 125.73 44.45 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,7 +7568,7 @@
 			)
 		)
 		(property "Description" "Quad SPST Monolithic CMOS Analog Switches, normally OFF, 17Ohm Ron, SOIC-16"
-			(at 125.73 44.45 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8328,7 +8327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_DO-35_P5.00mm"
 			(at 116.84 59.69 0)
 			(effects
 				(font
@@ -8546,7 +8545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "bca-footprints:Diode_DO-35_P5.00mm"
 			(at 111.76 53.34 0)
 			(effects
 				(font
@@ -9192,7 +9191,8 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:DG412xY")
-		(at 93.98 86.36 0)
+		(at 125.73 24.13 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9200,7 +9200,7 @@
 		(dnp no)
 		(uuid "dda07843-bccd-4545-8fa0-6e30f340d9c8")
 		(property "Reference" "U1"
-			(at 93.98 82.55 0)
+			(at 125.73 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9208,7 +9208,7 @@
 			)
 		)
 		(property "Value" "DG412xY"
-			(at 92.7101 82.55 90)
+			(at 124.4601 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,7 +9218,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 93.98 88.9 0)
+			(at 125.73 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9227,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DG411-DG413.pdf"
-			(at 93.98 86.36 0)
+			(at 125.73 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +9236,7 @@
 			)
 		)
 		(property "Description" "Quad SPST Monolithic CMOS Analog Switches, normally OFF, 17Ohm Ron, SOIC-16"
-			(at 93.98 86.36 0)
+			(at 125.73 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
