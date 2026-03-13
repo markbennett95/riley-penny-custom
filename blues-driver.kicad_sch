@@ -1713,6 +1713,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bca-symbols:CP_Audio"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP_Audio"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "bca-footprints:CP_Radial_D4.0mm_P1.50mm"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, footprint sized for power rails"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP_Audio_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP_Audio_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bca-symbols:C_Ceramic"
 			(pin_numbers
 				(hide yes)
@@ -7968,7 +8132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "100pF"
 			(at 163.83 44.958 90)
 			(effects
 				(font
@@ -8117,7 +8281,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "47pF"
 			(at 76.454 44.958 90)
 			(effects
 				(font
@@ -8408,7 +8572,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 73.406 181.61 90)
 			(effects
 				(font
@@ -8475,7 +8639,7 @@
 				)
 			)
 		)
-		(property "Value" "18n"
+		(property "Value" "18nF"
 			(at 33.02 46.736 90)
 			(effects
 				(font
@@ -8609,7 +8773,7 @@
 				)
 			)
 		)
-		(property "Value" "47n"
+		(property "Value" "47nF"
 			(at 96.52 61.976 90)
 			(effects
 				(font
@@ -8677,7 +8841,7 @@
 				)
 			)
 		)
-		(property "Value" "3v3 Z"
+		(property "Value" "3v3 Zener"
 			(at 158.75 20.574 0)
 			(effects
 				(font
@@ -8883,7 +9047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18n"
+		(property "Value" "18nF"
 			(at 202.438 65.786 0)
 			(effects
 				(font
@@ -9072,7 +9236,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bca-symbols:C_Ceramic")
+		(lib_id "bca-symbols:CP_Audio")
 		(at 137.16 85.09 90)
 		(mirror x)
 		(unit 1)
@@ -9089,7 +9253,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 137.16 88.646 90)
 			(effects
 				(font
@@ -9097,8 +9261,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 140.97 86.0552 0)
+		(property "Footprint" "bca-footprints:CP_Radial_D4.0mm_P1.50mm"
+			(at 147.32 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,7 +9279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, footprint sized for power rails"
 			(at 137.16 85.09 0)
 			(effects
 				(font
@@ -9124,7 +9288,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PART #" "C13585"
+		(property "JLCPCB PART #" ""
 			(at 137.16 85.09 90)
 			(effects
 				(font
@@ -9300,7 +9464,7 @@
 				)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "220pF"
 			(at 96.52 40.386 90)
 			(effects
 				(font
@@ -9575,7 +9739,7 @@
 				)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "47pF"
 			(at 80.01 40.386 90)
 			(effects
 				(font
@@ -9710,7 +9874,7 @@
 				)
 			)
 		)
-		(property "Value" "15n"
+		(property "Value" "15nF"
 			(at 46.99 123.952 90)
 			(effects
 				(font
@@ -10461,7 +10625,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6n"
+		(property "Value" "5.6nF"
 			(at 192.278 65.786 0)
 			(effects
 				(font
@@ -10748,7 +10912,7 @@
 				)
 			)
 		)
-		(property "Value" "4v7 Z"
+		(property "Value" "4v7 Zener"
 			(at 167.64 20.574 0)
 			(effects
 				(font
@@ -10817,7 +10981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC848C"
+		(property "Value" "BC847C"
 			(at 148.59 118.1099 0)
 			(effects
 				(font
@@ -11059,7 +11223,7 @@
 				)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "100pF"
 			(at 167.64 40.386 90)
 			(effects
 				(font
@@ -11195,7 +11359,7 @@
 				)
 			)
 		)
-		(property "Value" "8.2n"
+		(property "Value" "8.2nF"
 			(at 91.44 128.016 90)
 			(effects
 				(font
@@ -11401,7 +11565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100uF"
 			(at 49.022 188.468 0)
 			(effects
 				(font
@@ -11589,7 +11753,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bca-symbols:C_Ceramic")
+		(lib_id "bca-symbols:CP_Audio")
 		(at 251.46 53.34 90)
 		(mirror x)
 		(unit 1)
@@ -11606,7 +11770,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 251.46 56.896 90)
 			(effects
 				(font
@@ -11614,8 +11778,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 255.27 54.3052 0)
+		(property "Footprint" "bca-footprints:CP_Radial_D4.0mm_P1.50mm"
+			(at 261.62 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11632,7 +11796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, footprint sized for power rails"
 			(at 251.46 53.34 0)
 			(effects
 				(font
@@ -11641,7 +11805,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PART #" "C13585"
+		(property "JLCPCB PART #" ""
 			(at 251.46 53.34 90)
 			(effects
 				(font
@@ -11888,7 +12052,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "47pF"
 			(at 62.23 93.218 90)
 			(effects
 				(font
@@ -12104,7 +12268,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 92.456 181.61 90)
 			(effects
 				(font
@@ -12463,7 +12627,7 @@
 				)
 			)
 		)
-		(property "Value" "33n"
+		(property "Value" "33nF"
 			(at 121.92 120.396 90)
 			(effects
 				(font
@@ -12773,7 +12937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 153.162 65.786 0)
 			(effects
 				(font
@@ -12908,7 +13072,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9n"
+		(property "Value" "3.9nF"
 			(at 120.65 46.736 90)
 			(effects
 				(font
@@ -12977,7 +13141,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BC858C"
+		(property "Value" "BC857C"
 			(at 81.026 27.686 0)
 			(effects
 				(font
@@ -13134,7 +13298,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47p"
+		(property "Value" "47pF"
 			(at 239.014 38.608 90)
 			(effects
 				(font
@@ -13204,7 +13368,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BC858C"
+		(property "Value" "BC857C"
 			(at 168.656 27.686 0)
 			(effects
 				(font
@@ -13293,7 +13457,7 @@
 				)
 			)
 		)
-		(property "Value" "5.6n"
+		(property "Value" "5.6nF"
 			(at 177.8 46.736 90)
 			(effects
 				(font
@@ -13427,7 +13591,7 @@
 				)
 			)
 		)
-		(property "Value" "68n"
+		(property "Value" "68nF"
 			(at 207.01 36.576 90)
 			(effects
 				(font
@@ -13730,7 +13894,7 @@
 				)
 			)
 		)
-		(property "Value" "5.6n"
+		(property "Value" "5.6nF"
 			(at 132.08 120.396 90)
 			(effects
 				(font
@@ -13865,7 +14029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9n"
+		(property "Value" "3.9nF"
 			(at 123.19 105.156 90)
 			(effects
 				(font
@@ -14089,7 +14253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9n"
+		(property "Value" "3.9nF"
 			(at 46.482 93.726 0)
 			(effects
 				(font
@@ -14157,7 +14321,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 96.52 51.816 90)
 			(effects
 				(font
@@ -14305,7 +14469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100uF"
 			(at 32.512 183.388 0)
 			(effects
 				(font
@@ -14459,7 +14623,7 @@
 				)
 			)
 		)
-		(property "Value" "33n"
+		(property "Value" "33nF"
 			(at 207.01 46.736 90)
 			(effects
 				(font
@@ -15023,7 +15187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15n"
+		(property "Value" "15nF"
 			(at 97.028 121.666 0)
 			(effects
 				(font
@@ -15615,7 +15779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.15u"
+		(property "Value" "0.15uF"
 			(at 65.532 65.786 0)
 			(effects
 				(font
