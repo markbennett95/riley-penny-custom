@@ -19,6 +19,7 @@ sym-lib-table
 Icon?
 \#auto_saved_files\#
 *-backups/*
+/.history/
 
 # Rescue files
 *-rescue.dcm
